@@ -16,7 +16,12 @@
 
 # ES6
 
+## Module 01 - New variables - Creation, Updating and Scoping
+
 | Domain |                                                Challenge                                                | Points |                                                                                   Solution                                                                                  |
 |:---:|:-------------------------------------------------------------------------------------------------------:|:------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |  Module 01  | [var scoping refresher](https://www.google.com)| 1 | [var-let-const.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/var-let-const.html) |
-|  Module 01  | [let VS const](https://www.google.com) | 1 | [let-const.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/let-const.html)
+|  Module 01  | [let VS const](https://www.google.com) | 1 | [let-const.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/let-const.html) | 
+
+
+## Module 02 - Function improvements - Arrows and Default arguments
