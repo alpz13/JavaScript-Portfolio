@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>let and const in real life... IIFE</title>
+</head>
+<body>
+	<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+
+		//IIFE
+		(function() {
+			var name = 'alex';
+			console.log(name);
+		})();
+
+		//with block scoped variables you dont need that IIFE anymore since const get the scoped based on its creation
+		{
+			const name2 = 'oscar';
+			console.log(name2);
+		}
+
+		for(var i = 0; i < 10; i++){
+			console.log(i); // this i leaks into the browser 
+			// by the time the first set timeout function runs the loop will be done already making i = 10 before event finishing the rest of the setTimeout stacked loops
+			// Changing var for let make it blocked scope meaning inside the for loop getting 10 times setTimeout
+			setTimeout(function() {
+				console.log(`The number i is = ${i}`);
+			},1000);
+		}
+
+
+	</script>
+</body>
+</html>

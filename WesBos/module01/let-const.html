@@ -6,6 +6,32 @@
 	<title>Document</title>
 </head>
 <body>
-	
+	<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+		const key = 'abc';
+		let points = 50;
+		let winner = false;
+
+		if(points > 40) {
+			// you can create again new variable winner. Actually they are separate variables each with a different scope
+			// one "globaly" and one in the block content.
+			console.log('this ran!');
+			let winner = true;
+		}
+
+		// let variables can be updated while const can't
+		points = 60;
+		//key = 'xyz';
+		
+		// you cannot redifine a constant object, lets say person = {name:'Pepito'} ... Assignment constant
+		// But we can update the attributes of an object
+		// person.age = 30; 
+		const person = {
+			name: 'Alex',
+			age: 28
+		}
+
+
+
+	</script>
 </body>
-</html>
+</html>	
