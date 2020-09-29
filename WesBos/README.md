@@ -24,5 +24,7 @@
 |  Module 01  | [let VS const](https://www.google.com) | 1 | [let-const.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/let-const.html) | 
 |  Module 01  | [let and const in the real world](https://www.google.com) | 1 | [let-const-real-life.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/let-const-real-life.html) |
 |  Module 01  | [temporal dead zone](https://www.google.com) | 1 | [temporal-dad-zone.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/temporal-dad-zone.html) |
+|  Module 01  | [is var dead? what should i use?](https://www.google.com) | 1 | [is-var-dead.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module01/var-dead.html) |
+
 
 ## Module 02 - Function improvements - Arrows and Default arguments
