@@ -28,3 +28,7 @@
 
 
 ## Module 02 - Function improvements - Arrows and Default arguments
+
+| Domain |                                                Challenge                                                | Points |                                                                                   Solution                                                                                  |
+|:------:|:-------------------------------------------------------------------------------------------------------:|:------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  Module 02  | [arrow functions](https://www.google.com)| 1 | [arrow-function.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/arrow-function.html) |
