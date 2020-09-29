@@ -6,15 +6,43 @@
 	<title>Document</title>
 </head>
 <body>
-	<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+	<script>
 
 		const names = ['wes', 'kai', 'lux'];
 		const fullnames = names.map(function(name) {
 			return `${name} lopez`;
 		});
 
+		const fullnames2 = names.map((name) => {
+			return `${name} lopez`;
+		});
+
+		//implicit return
+		const fullnames3 = names.map((name) => `${name} lopez`);
+
+		//no params
+		const fullnames4 = names.map(() => `Cool lopez`);
+
 		console.log(fullnames);
+
+		console.log(fullnames2);
 		
+		console.log(fullnames3);
+
+		console.log(fullnames4);
+
+		// arrow functions are always anonymous functions
+		// a named function is a function in which you specify function
+		// 
+		function sayMyName(name) {
+			return name;
+		}
+
+		// declare a variable that is an anonymous function
+		
+		const sayMyName2 = (name) => { alert(`Hello ${name}`)}
+
+		sayMyName2('alex');
 	</script>
 </body>
 </html>
