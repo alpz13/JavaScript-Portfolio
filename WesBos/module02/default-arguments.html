@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		// es6 default values
+		function calculateBill(total, tax = 0.13, tip = 0.15) {
+			// Meeehh....
+			/*
+			tax = tax || 0.13;
+			tip = tip || 0.15;
+			*/
+			//Iuuckk....
+			/*
+			if(tax === undefined) {
+				tax = 0.13;
+			}
+			if(tip === undefined) {
+				tip = 0.15;
+			}
+			*/
+
+			return total + (total * tax) + (total * tip);
+		}
+
+		const totalBill = calculateBill(100, undefined ,0.25);
+
+		console.log(totalBill);
+	</script>
+</body>
+</html>
