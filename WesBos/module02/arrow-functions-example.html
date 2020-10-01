@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		const race = '100m dash';
+		const winners = ['Hunter Gath', 'Singa Song', 'Imda Boss'];
+
+		const win = winners.map((winner, i ) =>({ name:winner, race, place: i + 1}));
+
+		console.log(win);
+		console.table(win);
+
+		const ages = [23,62,45,34,2,65,234];
+
+		const old = ages.filter(age => age >= 60);
+		console.log(old);
+		
+		/*{ 
+			name: 'Alex lopez',
+			place: 1,
+			race: race
+		}
+		*/
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>	
+	<style>
+		.wrap {
+	      min-height: 100vh;
+	      display:flex;
+	      justify-content: center;
+	      align-items: center;
+	      font-family: sans-serif;
+	      font-weight: 100;
+	      color:white;
+	    }
+
+	    .box {
+	      background:black url(https://unsplash.it/1500/1500?image=560&blur=0.5) center fixed no-repeat;
+	      width:50px;
+	      height:50px;
+	      padding:50px;
+	      transition: width 0.2s, height 0.6s;
+	      position: relative;
+	    }
+
+	    .box.opening {
+	      width:500px;
+	      height:500px;
+	    }
+
+	    .box h2 {
+	      position: absolute;
+	      width:100%;
+	      font-size: 100px;
+	      transform:translateX(-200%);
+	      transition: all 0.5s;
+	      top:0;
+	    }
+
+	    .box p {
+	      position: absolute;
+	      width:100%;
+	      transform:translateX(200%);
+	      transition: all 0.5s;
+	      bottom:0;
+	    }
+
+	    .box.open > * {
+	      transform:translateX(0%);
+	    }
+	</style>
+
+	<div class="wrap">
+		<div class="box">
+			<h2>Alex</h2>
+			<p class="social">@alex</p>
+		</div>	
+	</div>
+
+	<script>
+		// this keyword does not get rebound
+		
+		const box = document.querySelector('.box');
+		//console.log(box);
+		
+		box.addEventListener('click', function() {
+			// what got called? the box. but we didn't specify the box
+			console.log(this);
+			let first = 'opening';
+			let second = 'open';
+
+			if(this.classList.contains(first)) {
+				//switching variables in es6
+				[first, second] = [second, first];	
+			}
+
+
+
+			this.classList.toggle(first);
+			
+			//this in this function has not been bounded to previous context so 'this' is scoped to parent meaning "window" obj
+			//updating function to arrow does the job... why? arrow functions inherits the value of the previous scope, so if prev value was box... the inherited 'this' value would be??? 'box'
+			setTimeout(() => {
+				console.log(this.classList);
+				this.classList.toggle(second);
+			}, 500);
+		});
+
+		// we didnt use arrow function... why?
+		/*
+		box.addEventListener('click', () => {
+			//this didnt got rebounded, but it was inherited by the parent scope of this? it is window
+			console.log(this);
+		});
+		 */
+
+
+	</script>
+</body>
+</html>
