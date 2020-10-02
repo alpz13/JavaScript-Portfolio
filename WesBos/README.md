@@ -36,3 +36,4 @@
 |  Module 02  | [arrow-functions-this](https://www.google.com) | 1 | [arrow-functions-this.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/arrow-functions-this.html) |
 |  Module 02  | [default-arguments](https://www.google.com) | 1 | [default-arguments.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/default-arguments.html) | 
 |  Module 02  | [when-not-to-use-arrows](https://www.google.com) | 1 | [when-not-to-use-arrows-html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/when-not-to-use-arrows-html) |
+|  Module 02  | [Exercises](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/exercises) | 1 | [Exercises](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/exercises) |
