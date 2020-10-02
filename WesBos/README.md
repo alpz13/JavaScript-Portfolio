@@ -37,3 +37,10 @@
 |  Module 02  | [default-arguments](https://www.google.com) | 1 | [default-arguments.html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/default-arguments.html) | 
 |  Module 02  | [when-not-to-use-arrows](https://www.google.com) | 1 | [when-not-to-use-arrows-html](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/when-not-to-use-arrows-html) |
 |  Module 02  | [Exercises](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/exercises) | 1 | [Exercises](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module02/exercises) |
+
+
+## Module 03 - Template Strings 
+
+|  Domain    |                      Challenge                        | Points |                              Solution                              |
+|:----------:|:-----------------------------------------------------:|:------:|:------------------------------------------------------------------:|
+|  Module 03 | [template-strings](https://www.google.com) | 1 | [template-strings](https://github.com/alpz13/JavaScript-Portfolio/blob/master/WesBos/module03/template-strings.html) |
