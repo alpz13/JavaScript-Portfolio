@@ -5,13 +5,10 @@
     </a>
 </p>
 
-* [Introduction](#Introduction)
-* [ES6](#ES6)
-
-# Introduction
+# Exercises!!!
 
 <p>
-	This page will be used as homepage of my WesBos integration course along the way as i deepend my knowledge from the basic, until the much bigger problems mostly with Javascript language. 
+	This page will be used as homepage of the exercises left/seen along the cours of my WesBos course Javascript language. 
 </p>
 
 # ES6
